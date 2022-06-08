@@ -1,3 +1,5 @@
+// Dit is de concrete backend/administratie paneel waarmee de klant de content van zijn website kon aanpassen.
+
 <?php
 session_start();
 ob_start();

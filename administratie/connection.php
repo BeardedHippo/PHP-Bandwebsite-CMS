@@ -1,3 +1,5 @@
+// Dit bestand zorgt voor de verbinding met de server
+
 <?php
 
 $username = " ";

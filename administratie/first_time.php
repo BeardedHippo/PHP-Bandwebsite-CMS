@@ -1,3 +1,6 @@
+// Dit was een first-time script die ik geschreven had, zodat ik niet iedere keer opnieuw het database hoefde te maken
+// en alle tabellen hoefde in te stellen.
+
 <?php
 $username = " ";
 $password = " ";

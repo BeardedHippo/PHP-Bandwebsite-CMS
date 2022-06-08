@@ -1,3 +1,6 @@
+// Dit bestand bevat alle functionaliteiten dat de website gebruikte. Na al deze jaren ben ik blij dat ik tegenwoordig
+// goed uitgeschreven namen gebruik voor variabelen en functies.
+
 <?php
   //Login
   function login($connect) {

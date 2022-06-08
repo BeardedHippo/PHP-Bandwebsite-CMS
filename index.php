@@ -85,6 +85,8 @@ $resultMsg = '';
       			</ol>
 
       <!-- Wrapper for slides -->
+      <!-- De Carousel queried naar het database welke foto als eerste, tweede en derde slide aangegeven staat ---------------->
+      <!-- Tegenwoordig zou ik het eerder andersom doen. Waarbij slide een, twee en drie door de admin verandert wordt ---------------->
       		<div class="carousel-inner">
         		<div class="item active">
           			<img src="<?php echo "uploads/" . fetchSlide('Slide 1', $connect) ?>">
@@ -166,6 +168,9 @@ $resultMsg = '';
 	</section>
 
 <!-- Contact ---------------->
+<!-- Tegenwoordig ben ik ervan bewust dat een mailform als dit zeer gevaarlijk is, al probeerde ik destijds ---------------->
+<!-- De tekst van invulvelden serverside wel te controleren met een regex.  ---------------->
+<!-- En ik hoopte bots tegen te gaan met recaptcha. Ik dacht vroeger ook dat recaptcha onveilige code tegenhield  ---------------->
 <?php
 
   if (isset($_POST['submit_contact']) ) {

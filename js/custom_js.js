@@ -1,3 +1,5 @@
+// Dit is hét toonbeeld van verbetering denk ik. Nagaan dat ik van dit naar EJS Gamelobby ben gegaan.
+
 $(document).ready(function() {
 
   if ($(window).width() > 960) {
@@ -103,7 +105,6 @@ $(document).ready(function() {
       	});
 
     $( "figure" ).each(function() {
-      // var num = $( this ).attr('class');
       if ( $(this).hasClass('1') ) {
         $('.mediaNav').hide();
       } else {
@@ -113,14 +114,10 @@ $(document).ready(function() {
       }
     });
 
-    // var elCount = $(".gallery figure").size();
-    // var elCalc = elCount /
     $(".gallery figure:nth-child(10n)").each(function() {
       var cNum = $(this).attr('class');
       $('.mediaNav ul').append("<li>" + cNum + "</li>");
     });
-    //
-    // $('.mediaNav ul li').append("<li>" + mediaNum + "</li>");
 
     $('.mediaNav ul li').click(function() {
       $('figure').hide(200);
@@ -129,15 +126,4 @@ $(document).ready(function() {
                 scrollTop: $('#Media').offset().top - 160
             }, 300);
     });
-
-
-
-    // if ($(".2")[0]){
-    //     alert("yo");
-    // } else {
-    //     // Do something if class does not exist
-    // }
-
-
-
   	});
